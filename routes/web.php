@@ -14,17 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('pages.index');
 });
 
 Route::get('/rent', function () {
-    return view('rent');
+    return view('pages.rent');
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('pages.about');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('pages.contact');
 });
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
