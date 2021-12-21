@@ -50,13 +50,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li-->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rent a Car</a>
+                        <a class="nav-link" href="/rent">Rent a Car</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="/about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="/contact">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex">
