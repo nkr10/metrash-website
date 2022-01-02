@@ -1,7 +1,8 @@
-@extends('layouts.xapp')
+@extends('master')
 
 @section('content')
-<div class="container">
+<link rel="stylesheet" href="{{ asset('css/short.css') }}">
+<div class="container custom-login">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">

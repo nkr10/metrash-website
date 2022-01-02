@@ -1,5 +1,6 @@
 @extends('master')
 @section('content')
+<link rel="stylesheet" href="{{ url('css/short.css') }}">
 <div class="container custom-login">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -17,7 +18,7 @@
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
                                 @error('email')
-                                    <span class="invalid-feedback" role="alert">
+                                <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
@@ -31,7 +32,7 @@
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
 
                                 @error('password')
-                                    <span class="invalid-feedback" role="alert">
+                                <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
@@ -69,25 +70,4 @@
         </div>
     </div>
 </div>
-
-<style>
-    .custom-login{
-        padding-top: 50px;
-    }
-
-    .form-group {
-        margin-bottom: 1rem;
-    }
-
-    footer {
-        position: absolute;
-        bottom: 50px; right: 50px; left: 50px;
-
-    }
-
-    .float-end{
-        display: none;
-    }
-
-</style>
 @endsection

@@ -1,0 +1,49 @@
+.custom-login{
+    padding-top: 100px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/*footer {
+    /*position: absolute;
+    bottom: 50px;
+    right: 50px;
+    left: 50px;
+    top: 50px;
+
+}*/
+
+html{
+    position:relative;
+    min-height: 100%;
+}
+/*Normalize html and body elements,this style is just good to have*/
+html,body{
+    margin:0;
+    padding:0;
+}
+main{
+    margin-bottom:200px;/* Height of footer*/
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100px;
+    /*background:#ccc;*/
+}
+
+.float-end{
+    display: none;
+}
+
+.featurette-divider {
+    position: absolute;
+    bottom: 165px;
+    left: 0;
+    right: 0;
+    height: 0;
+}

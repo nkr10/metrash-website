@@ -14,7 +14,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-git
+
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -33,7 +33,6 @@ git
 
 
     <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
 </head>
 <body>
 
@@ -106,7 +105,7 @@ git
         </div>
     </nav>
 </header>
-<main class>
+<main>
     @yield('content')
 </main>
 
