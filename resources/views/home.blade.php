@@ -1,4 +1,4 @@
-@extends('layouts.xapp')
+@extends('master')
 
 @section('content')
 <div class="container">

@@ -8,6 +8,9 @@
     <meta name="generator" content="Hugo 0.88.1">
     <title>Metrash</title>
 
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
 
@@ -99,6 +102,9 @@
                             </div>
                         </li>
                     @endguest
+
+
+
                 </ul>
 
             </div>
