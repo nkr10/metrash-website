@@ -15,7 +15,7 @@
                 <div class="carousel-caption text-start">
                     <h1>Metrash</h1>
                     <p>Providing reliable cars for Uber</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Rent a Car</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="{{'search'}}">Rent a Car</a></p>
                 </div>
             </div>
         </div>

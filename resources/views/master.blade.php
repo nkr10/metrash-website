@@ -52,7 +52,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li-->
                     <li class="nav-item">
-                        <a class="nav-link" href="/rent">Rent a Car</a>
+                        <a class="nav-link" href="/search">Rent a Car</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/about">About</a>
@@ -61,7 +61,7 @@
                         <a class="nav-link" href="/contact">Contact</a>
                     </li>
                 </ul>
-                <form class="d-flex">
+                <form class="d-flex" action="{{'search'}}" method="GET">
                     <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
                     <!--button class="btn btn-outline-success" type="submit">Search</button-->
                 </form>
