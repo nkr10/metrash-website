@@ -14,26 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::view('/', 'pages.index');
+Route::view('/about', 'pages.about');
+Route::view('/contact', 'pages.contact');
+Route::view('/search', 'pages.search');
 
-Route::get('/about', function () {
-    return view('pages.about');
-});
 
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
-
-Route::get('/search', function () {
-    return view('pages.search');
-});
-
-Route::get('/search', 'SearchPageController@index')->name('search');
-
+Route::get('/search', 'SearchPageController@index')->name('search.index');
+Route::get('/rent/{product}', 'SearchPageController@show')->name('search.show');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home'); //from original code
+//Route::get('/home', 'HomeController@index')->name('home'); //from original code
 
